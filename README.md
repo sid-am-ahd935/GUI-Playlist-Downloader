@@ -1,3 +1,12 @@
+- **Deprecated**
+- **No longer in production**
+
+
+## The development may start again but not soon...
+Due to unknown bugs, and errors in pytube, the entire downloader script became useless against multithreading. Hence using youtube-dl or finding similar libraries to migrate to seemed a bit demotivating and too much leg. So instead when I decide someday, I would be creating my own Multi threaded downloader for youtube videos and then restart this project again.
+The issue was of having too many requests, caused the request library inside pytube to explode and terminating every single youtube details request.
+
+
 ## The GUI Part Idea
 
 The widget should have 3 sections, one header, one body and one footer
@@ -22,3 +31,5 @@ Footer:
     Then there should be a prefilled text folder of the full location of where the download is going to be placed
     If there is a playlist downloading, there would be a label on the right to show after the download location is selected, another folder will be created for storing the videos
 
+### The Motive
+All the playlist downloaders out there, do not have support for choosing a range of videos to download, hence became the worst nightmare for checking and unchecking each video for downloading.
